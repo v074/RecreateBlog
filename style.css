@@ -1,0 +1,46 @@
+body{
+    font-family: 'Lato', sans-serif;
+    width:80%;
+    padding:15px 25px 5px 25px;
+    margin:20px auto;
+    border: 20px solid #BDC3C7;
+    border-radius:25px;
+}
+
+article:not(:last-of-type){
+    border-bottom:10px solid #BDC3C7;
+}
+
+h2{
+    letter-spacing:3.2px;
+    font-weight: 700;
+    font-size:48px;
+    color:#3d3d3d;
+    margin-top:0;
+    margin-bottom:0;
+}
+h2:hover{
+    /* Makes the text fill the header */
+    text-align:center;
+    letter-spacing:1vmax;
+}
+
+h4{
+    margin-top:0;
+    font-weight:400;
+    text-align:right;
+    text-transform:uppercase;
+    color:#3498DB;
+}
+
+p{
+    text-align:right;
+}
+
+p:nth-of-type(2){
+    text-align:center;
+}
+
+p:not(:last-child){
+    border-bottom:5px solid #BDC3C7;
+}
